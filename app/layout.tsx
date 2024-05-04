@@ -9,8 +9,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* 
-        This will make the fonts to apply into entire application
-        In additional add antialiased class from tailwind to smooth the fonts
+        This will make the fonts apply to the entire application
+        In addition add antialiased class from tailwind to smooth the fonts
       */}
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
